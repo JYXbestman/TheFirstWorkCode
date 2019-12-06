@@ -1,0 +1,104 @@
+{
+  "groups": [
+    {
+      "name": "mine.setting",
+      "type": "com.weibang.videohome.setting.MineSetting",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.swagger",
+      "type": "com.weibang.videohome.setting.SwaggerSetting",
+      "sourceType": "com.weibang.videohome.setting.SwaggerSetting"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mine.setting.base-file-path",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.base-work-space",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.hots-ip",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.image-domain",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.image-path",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.log-path",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.log-stash-host",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.pay-callback-url",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.qr-path",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.swagger.api-version",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.SwaggerSetting"
+    },
+    {
+      "name": "mine.setting.swagger.base-package",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.SwaggerSetting"
+    },
+    {
+      "name": "mine.setting.swagger.description",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.SwaggerSetting"
+    },
+    {
+      "name": "mine.setting.swagger.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启swagger，正式环境一般是需要关闭的，可根据springboot的多环境配置进行设置",
+      "sourceType": "com.weibang.videohome.setting.SwaggerSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "mine.setting.swagger.path-mapping",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.SwaggerSetting"
+    },
+    {
+      "name": "mine.setting.swagger.title",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.SwaggerSetting"
+    },
+    {
+      "name": "mine.setting.voice-domain",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    },
+    {
+      "name": "mine.setting.voice-path",
+      "type": "java.lang.String",
+      "sourceType": "com.weibang.videohome.setting.MineSetting"
+    }
+  ],
+  "hints": []
+}
